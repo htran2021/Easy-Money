@@ -1,0 +1,52 @@
+
+.motivating-example_m4 {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.info_m4 {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  max-height: 600px;
+  overflow-y: auto;
+}
+
+.interest-calc {
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
+}
+
+.ai-advice_m4 {
+  grid-column: 1 / 3;
+  grid-row: 4 / 5;
+}
+
+.actions_m4 {
+  grid-column: 1 / 3;
+  grid-row: 3 / 4;
+}
+
+.video-section {
+  background-color: #d9e2e3;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.video-container iframe {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+  border: 0;
+}

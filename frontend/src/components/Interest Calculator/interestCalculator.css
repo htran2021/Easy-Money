@@ -1,0 +1,75 @@
+.compounding-interest-calculator {
+  background-color: #d9e2e3;
+  padding: 20px;
+  border-radius: 8px;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.compounding-interest-calculator .section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #031926;
+}
+
+.compounding-interest-calculator .input-group {
+  margin-bottom: 15px;
+}
+
+.compounding-interest-calculator .input-group label {
+  display: block;
+  font-size: 18px;
+  font-weight: medium;
+  color: #031926;
+  margin-bottom: 5px;
+}
+
+.compounding-interest-calculator .input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #a9b7b8;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.compounding-interest-calculator .radio-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.compounding-interest-calculator .radio-group label {
+  margin-right: 15px;
+  font-size: 16px;
+  color: #031926;
+}
+
+.compounding-interest-calculator .btn {
+  background-color: #031926;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.compounding-interest-calculator .btn:hover {
+  background-color: #02161b;
+}
+
+.compounding-interest-calculator .result {
+  margin-top: 20px;
+}
+
+.compounding-interest-calculator .chart-container {
+  position: relative;
+  width: 100%;
+  height: 400px; /* Adjust the height as needed */
+}
+
+.compounding-interest-calculator .error-message {
+  color: red;
+  font-size: 16px;
+  margin-top: 10px;
+}
